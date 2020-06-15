@@ -4,7 +4,7 @@ import pickle
 import librosa
 
 app = Flask(__name__)
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('Bird Predictor.pkl', 'rb'))
 
 @app.route('/')
 def home():
@@ -21,7 +21,7 @@ def predict():
 
     output = prediction[0]
 
-    return render_template('index.html', prediction_text='The iris type is {}'.format(output))
+    return render_template('index.html', prediction_text='The bird is {}'.format(output))
 
 @app.route('/predict_api',methods=['POST'])
 def predict_api():
