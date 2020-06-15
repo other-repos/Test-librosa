@@ -10,9 +10,3 @@ scikit-learn>=0.18
 matplotlib>=1.4.3
 pandas>=0.19
 librosa==0.7.2
-llvmlite==0.32.1
-numba==0.48.0
-decorator==4.4.2
-python-dateutil==2.6.1
-six==1.15.0
-audioread==2.1.5
