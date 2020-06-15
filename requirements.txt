@@ -11,7 +11,7 @@ matplotlib>=1.4.3
 pandas>=0.19
 librosa==0.7.2
 llvmlite==0.32.1
-numba==0.43.0
+numba==0.48.0
 decorator==4.4.2
 python-dateutil==2.6.1
 six==1.15.0
