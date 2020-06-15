@@ -13,3 +13,4 @@ librosa==0.7.2
 setuptools
 llvmlite>=0.33.0dev0,<0.34
 argparse
+numba: 0.50.0
