@@ -13,4 +13,3 @@ librosa==0.7.2
 setuptools
 llvmlite==0.32.1
 argparse
-numba==0.43.0
