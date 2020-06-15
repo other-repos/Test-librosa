@@ -11,6 +11,6 @@ matplotlib>=1.4.3
 pandas>=0.19
 librosa==0.7.2
 setuptools
-llvmlite<0.34,>=0.33.0.dev0
+llvmlite==0.33.0
 argparse
 soundfile==0.10.3.post1
