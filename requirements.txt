@@ -14,4 +14,4 @@ setuptools
 llvmlite<0.32.0,>=0.31.0dev0
 argparse
 numba==0.48.0
-soundfile==0.10.3
+soundfile==0.10.3.post1
